@@ -2,9 +2,9 @@ const express = require("express");
 
 const dotenv = require('dotenv');
 const mongoose =require('mongoose');
-const vendorRoutes = require('../backend/routes/vendorRoutes')
+const vendorRoutes = require('./routes/vendorRoutes')
 const bodyParser =require('body-parser');
-const eventRoutes = require('../backend/routes/eventRoutes')
+const eventRoutes = require('./routes/eventRoutes')
 const path = require('path')
 
 const app = express()
